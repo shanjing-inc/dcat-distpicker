@@ -1,5 +1,5 @@
 {
-    "name": "sparkinzy/dcat-distpicker",
+    "name": "shanjing/dcat-distpicker",
     "alias": "distpicker",
     "description": "省市区地址选择器，支持select2",
     "type": "library",
