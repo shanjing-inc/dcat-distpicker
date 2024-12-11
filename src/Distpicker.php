@@ -10,7 +10,7 @@ use Illuminate\Support\Arr;
 class Distpicker extends Field
 {
 
-    protected $view = 'sparkinzy.dcat-distpicker::select';
+    protected $view = 'shanjing.dcat-distpicker::select';
     /**
      * @var array
      */

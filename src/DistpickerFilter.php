@@ -12,7 +12,7 @@ use Dcat\Admin\Grid\Filter;
 
 class DistpickerFilter extends AbstractFilter
 {
-    protected $view = 'sparkinzy.dcat-distpicker::select-filter';
+    protected $view = 'shanjing.dcat-distpicker::select-filter';
     /**
      * @var array
      */
@@ -190,7 +190,7 @@ JS;
 
     public function render()
     {
-        return view('sparkinzy.dcat-distpicker::select-filter', $this->variables());
+        return view('shanjing.dcat-distpicker::select-filter', $this->variables());
     }
 
 }

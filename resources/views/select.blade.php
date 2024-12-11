@@ -51,7 +51,7 @@
 
     </div>
 </div>
-<script require="@sparkinzy.dcat-distpicker{{ $enable_select2?',@select2':''  }}" init="#{!! $id !!}">
+<script require="@shanjing.dcat-distpicker{{ $enable_select2?',@select2':''  }}" init="#{!! $id !!}">
     @if($enable_select2)
     $('.dcat-distpicker-select').select2();
     @endif

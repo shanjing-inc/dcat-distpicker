@@ -17,7 +17,7 @@ class DcatDistpickerServiceProvider extends ServiceProvider
     {
         parent::init();
         Admin::requireAssets('@select2');
-        Admin::requireAssets('@sparkinzy.dcat-distpicker');
+        Admin::requireAssets('@shanjing.dcat-distpicker');
 
         Form::extend('distpicker', Distpicker::class);
         Filter::extend('distpicker', DistpickerFilter::class);
